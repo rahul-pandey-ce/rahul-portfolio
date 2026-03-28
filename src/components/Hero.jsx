@@ -100,7 +100,7 @@ const Hero = () => {
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </a>
               <a 
-                href="/Rahul_Pandey_CV.pdf" 
+                href="/Gen.pdf" 
                 download
                 className="btn-outline flex items-center justify-center"
               >
@@ -113,22 +113,22 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, delay: 0.8 }}
-            className="hidden lg:block relative"
+            className="relative"
           >
-             <div className="w-[420px] h-[580px] relative">
+             <div className="w-[300px] h-[420px] md:w-[420px] md:h-[580px] relative">
                 {/* Profile Portrait */}
                  <motion.div
                     animate={{
                       y: [0, -15, 0],
                     }}
                     transition={{
-                      duration: 6,
-                      repeat: Infinity,
-                      ease: "easeInOut",
+                       duration: 6,
+                       repeat: Infinity,
+                       ease: "easeInOut",
                     }}
-                    className="absolute inset-0 glass-card rounded-[4rem] overflow-hidden border-white/10 bg-white/5 backdrop-blur-3xl shadow-[0_0_100px_rgba(0,224,255,0.15)] flex items-center justify-center p-3"
+                    className="absolute inset-0 glass-card rounded-[3rem] md:rounded-[4rem] overflow-hidden border-white/10 bg-white/5 backdrop-blur-3xl shadow-[0_0_100px_rgba(0,224,255,0.15)] flex items-center justify-center p-2 md:p-3"
                  >
-                    <div className="w-full h-full rounded-[3.2rem] overflow-hidden relative group bg-white/5">
+                    <div className="w-full h-full rounded-[2.5rem] md:rounded-[3.2rem] overflow-hidden relative group bg-white/5">
                        <img 
                          src="/rahul_photo.jpg" 
                          alt="Rahul Pandey" 
