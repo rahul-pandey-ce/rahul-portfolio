@@ -44,4 +44,4 @@ You can easily adjust the theme in `tailwind.config.js` and `src/styles/index.cs
 - **Background**: #030014 (Deep Cosmic Blue)
 
 ---
-Designed with ❤️ by Antigravity AI
+
